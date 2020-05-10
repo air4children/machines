@@ -4,7 +4,7 @@
 [OttoDIYH_body_V07.stl](OttoDIYH_body_V07.stl)
 
 * **3D printed head**
-[OttoDIYH_head_V07.stl](OttoDIYH_head_V07.stl)
+[OttoDIYH_head_V07.stl](OttoDIYH_head_v07.stl)
 
 * **3D printed foot x2**
 [OttoDIYH_foot_V10.stl](OttoDIYH_foot_V10.stl)
