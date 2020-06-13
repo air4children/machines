@@ -5,13 +5,13 @@ and you can even create your own.
 ![fig](figures/1359656870.png)
  
 # Content
-## How it Works
-## Bill of Materials
-## CAD Files
-## 3D Printing
-## Software
-## Electronics
-## Assembly Instructions
+## 1. How it Works
+## 2. Bill of Materials
+## 3. CAD Files
+## 4. 3D Printing
+## 5. Software
+## 6. Electronics
+## 7. Assembly Instructions
 
 # References 
 * [Legacy designs of CAD and 3D-priting files](legacy/README.md)
