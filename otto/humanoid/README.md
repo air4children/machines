@@ -9,9 +9,9 @@ and you can even create your own.
 ## 2. Bill of Materials
 ## 3. CAD Files
 ## 4. 3D Printing
-## 5. Software
+## 5. [Software](05-software/)
 ## 6. Electronics
-## 7. Assembly Instructions
+## 7. [Assembly Instructions](07-assembly-instructions/)
 
 # References 
 * [Legacy designs of CAD and 3D-priting files](legacy/README.md)
