@@ -30,4 +30,4 @@ SORTED OUT: For processor choose: ATMega328P
 * `(.text+0x0): multiple definition of __vector_4` when wploading [OttoHumanoid_V9.ino](libraries/OttoHumanoid_V9.ino)
     * https://forum.mysensors.org/topic/999/solved-how-to-get-softwareserial-to-work-on-the-serialgateway/4
     * https://github.com/MarlinFirmware/Marlin/issues/9221 
-    
+    * asking for help to Camilo Parra [here](https://wikifactory.com/+OttoDIY/humanoid/issues/error-compiling-for-board-arduino-nano-text0x0-multiple-definition-of-vector3)
