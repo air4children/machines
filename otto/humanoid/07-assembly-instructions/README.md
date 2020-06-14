@@ -1,13 +1,19 @@
 # Assembly instructions
 
 
-## Some warnings
+## First time construction. 
+In general all went smoothly with minor issues such as the use of the 
+appropriate library and perhaps the use of a file to allow some piece
+fit in the 3d-printed pieces of otto.  See photos of its
+construction [here](first-time-constructions/).
+
+### Some warnings
 * Careful with the small screw, it is easy to lost them (put them in a container)
 * 16.5 step is the collocation of the ultrasound sensor
 * 22 should be done (connection of batteries holder) in step 16
 * 26 should be done (connection of bluetooth dongle) in step 16
 
-## Can be improved
+### Can be improved
 * buy comfortable screwdrivers  (professional ones)
 * buy a container for screws 
 * buy a scalper to cut pieces
