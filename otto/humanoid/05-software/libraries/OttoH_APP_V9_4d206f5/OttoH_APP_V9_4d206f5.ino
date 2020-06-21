@@ -157,15 +157,20 @@ Otto.putMouth(smile);
 //-- Principal Loop ---------------------------------------------//
 ///////////////////////////////////////////////////////////////////
 void loop() {
-              //// testing lines by MX
-              // move(1); //case 1: //M 1 1000 //Otto.walk(1, T, 1);
-              // move(9); //case 9: //M 9 1000 30 //Otto.crusaito(1, T, moveSize, 1);
-              // move(14); //    case 14: //M 14 1000 20 //Otto.tiptoeSwing(1, T, moveSize);
-              // move(11); //case 11: //M 11 1000 //Otto.jump(1, T);
         SCmd.readSerial();    //If Otto is moving yet
         if (Otto.getRestState()==false){  
           move(moveId);
         }  
+              //// testing lines by MX
+              //move(1); //[OK] case 1: //M 1 1000 //Otto.walk(1, T, 1);
+              //move(9); //[OK] case 9: //M 9 1000 30 //Otto.crusaito(1, T, moveSize, 1);
+              //move(14); //[OK] case 14: //M 14 1000 20 //Otto.tiptoeSwing(1, T, moveSize);
+              //move(11); //[OK] case 11: //M 11 1000 //Otto.jump(1, T);
+              //OttoLowBatteryAlarm(); //[OK]
+              //Otto.playGesture(OttoWave); //[OK]
+              //Otto.sing(S_confused); //[OK]
+              //OttoSleeping_withInterrupts(); //[OK]
+              //ButtonPushed();// [NO-OK] 
     }
 
 ///////////////////////////////////////////////////////////////////
