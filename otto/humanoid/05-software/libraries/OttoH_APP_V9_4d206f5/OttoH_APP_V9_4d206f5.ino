@@ -68,7 +68,7 @@ boolean BATTcheck = true;    // SET TO FALSE IF NOT USING THIS OPTION
 ///////////////////////////////////////////////////////////////////
 
 const char programID[] = "OttoHumanoid_V9"; //Each program will have a ID
-const char message1[] = "I AM OTTO"; //9 characters MAXIMUM
+const char message1[] = "YAY"; //9 characters MAXIMUM
 //-- Movement parameters
 int T = 1000;            //Initial duration of movement
 int moveId = 0;          //Number of movement
@@ -161,16 +161,83 @@ void loop() {
         if (Otto.getRestState()==false){  
           move(moveId);
         }  
-              //// testing lines by MX
-              //move(1); //[OK] case 1: //M 1 1000 //Otto.walk(1, T, 1);
-              //move(9); //[OK] case 9: //M 9 1000 30 //Otto.crusaito(1, T, moveSize, 1);
-              //move(14); //[OK] case 14: //M 14 1000 20 //Otto.tiptoeSwing(1, T, moveSize);
-              //move(11); //[OK] case 11: //M 11 1000 //Otto.jump(1, T);
-              //OttoLowBatteryAlarm(); //[OK]
-              //Otto.playGesture(OttoWave); //[OK]
-              //Otto.sing(S_confused); //[OK]
-              //OttoSleeping_withInterrupts(); //[OK]
-              //ButtonPushed();// [NO-OK] 
+             
+///////// tested lines/functions by MX
+///////GESTURES
+//  Otto.playGesture(OttoHappy);
+//  Otto.playGesture(OttoSuperHappy);
+//  Otto.playGesture(OttoSad);
+//  Otto.playGesture(OttoSleeping);
+//  Otto.playGesture(OttoFart);
+//  Otto.playGesture(OttoConfused);
+//  Otto.playGesture(OttoLove);
+//  Otto.playGesture(OttoAngry);
+//  Otto.playGesture(OttoFretful);
+//  Otto.playGesture(OttoMagic);
+//  Otto.playGesture(OttoWave);
+//  Otto.playGesture(OttoVictory);
+//  Otto.playGesture(OttoFail);
+
+
+//////MOVEMENTS 
+////            int T = 1000;            //Initial duration of movement
+////            int moveSize = 15;       //Associated with the height of some movements
+// Otto.home();
+//      Otto.walk(1, T, 1); //M 1 1000
+//      Otto.walk(1, T, -1);//M 2 1000
+//      Otto.turn(1, T, 1);//M 3 1000
+//      Otto.turn(1, T, -1);//M 4 1000
+//      Otto.updown(1, T, moveSize); //M 5 1000 30
+//      Otto.moonwalker(1, T, moveSize, 1); //M 6 1000 30
+//      Otto.moonwalker(1, T, moveSize, -1); //M 7 1000 30
+      Otto.swing(1, T, moveSize);//M 8 1000 30
+//      Otto.crusaito(1, T, moveSize, 1);//M 9 1000 30
+//      Otto.crusaito(1, T, moveSize, -1);//M 10 1000 30
+//      Otto.jump(1, T);//M 11 1000
+//      Otto.flapping(1, T, moveSize, 1); //M 12 1000 30
+//      Otto.flapping(1, T, moveSize, -1); //M 13 1000 30
+//      Otto.tiptoeSwing(1, T, moveSize);//M 14 1000 20
+//      Otto.bend(1, T, 1); //M 15 500
+//      Otto.bend(1, T, -1); //M 16 500
+//      Otto.shakeLeg(1, T, 1);//M 17 500
+//      Otto.shakeLeg(1, T, -1);//M 18 500
+//      Otto.jitter(1, T, moveSize);//M 19 500 20
+//      Otto.ascendingTurn(1, T, moveSize);//M 20 500 15
+//      Otto.handsup();//M 21
+//      Otto.handwave(1);//M 22 right arm
+//      Otto.handwave(-1);//M 23 left arm
+
+
+///// SIGN COMMAND
+//      Otto.sing(S_connection);//K 1
+//      Otto.sing(S_disconnection);//K 2
+//      Otto.sing(S_surprise);//K 3
+//      Otto.sing(S_OhOoh);//K 4
+//      Otto.sing(S_OhOoh2);//K 5
+//      Otto.sing(S_cuddly);//K 6
+//      Otto.sing(S_sleeping);//K 7
+//      Otto.sing(S_happy);//K 8
+//      Otto.sing(S_superHappy);//K 9
+//      Otto.sing(S_happy_short);//K 10
+//      Otto.sing(S_sad);//K 11
+//      Otto.sing(S_confused);//K 12
+//      Otto.sing(S_fart1);//K 13
+//      Otto.sing(S_fart2);//K 14
+//      Otto.sing(S_fart3);//K 15
+      Otto.sing(S_mode1);//K 16
+//      Otto.sing(S_mode2);//K 17
+//      Otto.sing(S_mode3);//K 18
+//      Otto.sing(S_buttonPushed);//K 19
+
+//// OTHERS FUNCTIONS
+//OttoLowBatteryAlarm(); //[OK]
+//Otto.playGesture(OttoWave); //[OK]
+//Otto.sing(S_confused); //[OK]
+//OttoSleeping_withInterrupts(); //[OK]
+//ButtonPushed();// [NO-OK] 
+//obstacleDetector(); // [not-sure-about-its-function-YET]
+//requestDistance();// [don't see its working, will check it]
+ 
     }
 
 ///////////////////////////////////////////////////////////////////
