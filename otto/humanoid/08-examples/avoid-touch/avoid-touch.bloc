@@ -1,0 +1,61 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <toolbox>toolbox_arduino_all</toolbox>
+  <block type="base_setup_loop" id="j{i{r0e7_Z-lYp,YSFe:" x="-666" y="-122">
+    <statement name="DO">
+      <block type="otto9_homeh" id="|VnQW30!~`4{2Hhxen}r">
+        <next>
+          <block type="otto9_soundh" id="u=,Sz~[RmL{J.IeM_RLr">
+            <field name="otto_sound">S_connection</field>
+            <next>
+              <block type="otto9_gestureh" id="8$W0AfZDx/`iqnH{~jjx">
+                <field name="otto_gesture">OttoSuperHappy</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <statement name="LOOP">
+      <block type="controls_if" id="eE,I@wu*9}-MyAxv$w=8">
+        <value name="IF0">
+          <block type="otto9_obstacle" id="72TGxFqupX;2|Se=Mj7r">
+            <field name="obstacle">10</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="otto9_mouth" id="sGR9F_-?*gk@pWOn!JwE">
+            <field name="otto9_mouth_choice">confused</field>
+            <next>
+              <block type="otto9_moveh" id="tdv0b}9KjW7vKFVqb#$?">
+                <field name="otto_move_sens">BACKWARD</field>
+                <field name="otto_move_speed">750</field>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="controls_if" id="zipP7yBudY{g;dUoFU2m">
+            <value name="IF0">
+              <block type="otto9_touchbutton" id="}[cy7ij/`kHOxq`r=NyF"></block>
+            </value>
+            <statement name="DO0">
+              <block type="otto9_mouth" id="}iK*//6bB8HU8$I,Xz@.">
+                <field name="otto9_mouth_choice">heart</field>
+                <next>
+                  <block type="otto9_arms" id="L:@dcf?gID^2P%DeA(kq">
+                    <field name="otto9_arms_choice">HANDWAVE1</field>
+                    <next>
+                      <block type="otto9_arms" id="V0}XSZfm@npw?mZ)~U|T">
+                        <field name="otto9_arms_choice">HANDWAVE2</field>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
