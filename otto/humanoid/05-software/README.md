@@ -1,19 +1,49 @@
-# Software
+# Software and its dependencies 
 
-## Install Arduino 
+## Ubuntu 18.04x64
+### Install Arduino 
 1. Download Arduino IDE software for free [here](https://www.arduino.cc/en/Main/Software)﻿
 2. Install Arduino IDE software in you computer.
 
-
-## Install libraries
+### Install libraries
 Using Arduino IDE>Sketch>Include Library> Add .ZIP library, then search for `OttoDIYLibV9_8665fff.zip` 
 to extract its content. Alternatively, you can `OttoDIYLib-master.zip` in `/home/$USERNAME/Arduino/libraries`
 [ref](https://learn.adafruit.com/adafruit-all-about-arduino-libraries-install-use/how-to-install-a-library)
 
-## Upload `OttoH_APP_V9.ino`
+### Upload `OttoH_APP_V9.ino`
 3. Connect Arduino nano with USB cable
 4. Open Arduino and select: (Board: Arduino Nano, Processor:ATMega328P Port:/dev/ttyUSB0)
 5. Upload [OOttoH_APP_V9_4d206f5.ino](libraries/OttoH_APP_V9_4d206f5/OttoH_APP_V9_4d206f5.ino)
 
-## Potential Issues
+### Potential Issues
 For potential issues see [ISSUES](ISSUES.md) which are sorted out.
+
+## Windows 10 x64
+### Pycharm
+* Download and install PyCharm community 
+https://www.jetbrains.com/pycharm/download/#section=windows
+
+### Gitbash
+Download the latest 64-bit version of Git for Windows. 
+* https://git-scm.com/downloads
+
+## Cloning project
+### Clone GitHub project.
+
+Open a terminal (GNU/Linux) or GitBash (in windows) 
+```
+cd Desktop/air4children
+git clone https://github.com/air4children/robots.git
+```
+Example of the output
+```
+$ git clone https://github.com/air4children/robots.git
+Cloning into 'robots'...
+remote: Enumerating objects: 225, done.
+remote: Counting objects: 100% (225/225), done.
+remote: Compressing objects: 100% (174/174), done.
+remote: Total 225 (delta 59), reused 211 (delta 46), pack-reused 0
+Receiving objects: 100% (225/225), 46.09 MiB | 4.19 MiB/s, done.
+Resolving deltas: 100% (59/59), done.
+```
+NOTE. See this [tutorial](https://github.com/mxochicale/github) to learn more about Github.
