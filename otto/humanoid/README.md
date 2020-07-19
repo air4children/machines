@@ -12,6 +12,6 @@ and you can even create your own.
 ## 05. [Software](05-software/)
 ## 06. Electronics
 ## 07. [Assembly Instructions](07-assembly-instructions/)
-## 08. [Examples](08-examples/)
+## 08. [Code](08-block-examples/)
 # References 
 * [Legacy designs of CAD and 3D-priting files](legacy/README.md)
