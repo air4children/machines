@@ -1,20 +1,20 @@
 # walk 
+**Description:** This example use repeat block to make otto walk 
+in nine different options at six different speeds.
 
 ## Block functions
 * START, STOP
 * Repeat 
-* Walk
-    * (9 options)
-    * Speed (6 options)
+* Walk (9 options) at 6 different speed values. 
 
 ## Block diagram
-![i](capture1593887619407_walk)  
+![i](main.PNG)  
 Move  
 ![i](walk-move.PNG)  
 Speed  
 ![i](walk-speed.PNG)  
 
-## Code ino
+## Arduino code
 [ino](walk.ino)
 ```
 #include <Otto9.h>

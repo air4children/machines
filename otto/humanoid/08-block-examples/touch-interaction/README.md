@@ -1,4 +1,7 @@
 # touch-interaction
+**Description:** This example use touch sensor to activate 
+five leg movements of otto at six different speeds and 
+three speeds.
 
 ## Block functions
 * Loop
@@ -6,8 +9,7 @@
 * Walk
 
 ## Block diagram
-## Block diagram
-![i](block.PNG)  
+![i](main.PNG)  
 Do  
 ![i](do.PNG)  
 Speed    
@@ -16,7 +18,7 @@ Size
 ![i](size.PNG)  
 
 
-## Code ino 
+## Arduino code 
 [ino](touch-interaction.ino) 
 
 ``` 
