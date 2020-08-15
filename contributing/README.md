@@ -29,6 +29,12 @@ Image of GitHub-Flow is own by Build azure 2018 (see [README](figures/github-wor
 * https://youtu.be/YxHplztMQMc?t=355 
 * https://www.edureka.co/blog/pycharm-tutorial
 
+### [Free CAD](https://en.wikipedia.org/wiki/FreeCAD)
+* https://www.youtube.com/watch?v=TLf2KVrtGew&list=PLMjfntGK5aY4qRy4QJr6YiAilvcR90qDj
+* https://www.youtube.com/watch?v=6Nu8y0C0nvg
+* https://www.youtube.com/watch?v=y97EFZvmnAA
+* https://www.openhub.net/p/freecad
+
 ### [Autocad Inventor](https://en.wikipedia.org/wiki/Autodesk_Inventor)
 * https://www.youtube.com/watch?v=5PWqsRynm5I
 * https://www.youtube.com/watch?v=KKbwf2a53bA&list=PLRhna5_X7uWvjFID3uU0vKxpiuw8XvF35
