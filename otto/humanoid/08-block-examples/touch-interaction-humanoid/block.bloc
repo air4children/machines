@@ -1,0 +1,36 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <toolbox>toolbox_arduino_all</toolbox>
+  <block type="base_setup_loop" id="j{i{r0e7_Z-lYp,YSFe:" x="-666" y="-122">
+    <statement name="DO">
+      <block type="otto9_homeh" id="|VnQW30!~`4{2Hhxen}r">
+        <next>
+          <block type="otto9_soundh" id="u=,Sz~[RmL{J.IeM_RLr">
+            <field name="otto_sound">S_connection</field>
+            <next>
+              <block type="otto9_mouth" id="-nkI835b_$#zTy4jJnG*">
+                <field name="otto9_mouth_choice">thunder</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <statement name="LOOP">
+      <block type="controls_if" id="zipP7yBudY{g;dUoFU2m">
+        <value name="IF0">
+          <block type="otto9_touchbutton" id="}[cy7ij/`kHOxq`r=NyF"></block>
+        </value>
+        <statement name="DO0">
+          <block type="otto9_mouth" id="}iK*//6bB8HU8$I,Xz@.">
+            <field name="otto9_mouth_choice">heart</field>
+            <next>
+              <block type="otto9_gestureh" id="zr{#_{ktVRa:Lr:prdDb">
+                <field name="otto_gesture">OttoLove</field>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>
