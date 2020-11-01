@@ -7,15 +7,16 @@ otto walk in nine styles at six different speeds.
     * Structure > START STOP  
     * Otto > Move  
     * Logic > Repeat   
+    * Match > Constant   
     ![i](blocks.png)  
 
-* Assembly blocks 
+* Assembly blocks   
 ![i](main.PNG)  
 
-* Test different Movements 
+* Test different Movements    
 ![i](walk-move.PNG)  
 
-* Test different Speeds
+* Test different Speeds   
 ![i](walk-speed.PNG)  
 
 ## Exercises 
@@ -28,6 +29,8 @@ and backward 2 steps using different speeds.
 
 03. How can the robot help you in your house? Can your own sets 
 of blocks using different repetitions, movements and speeds. 
+
+04. Play with other blocks 
 
 ## References
 * Arduino code [ [walk.ino] ](walk.ino)
