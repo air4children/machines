@@ -1,42 +1,33 @@
-# walk 
-**Description:** This example use repeat block to make otto walk 
-in nine different options at six different speeds.
+# Walk 
+**Description:** This example use start, stop and repeat blocks to make 
+otto walk in nine styles at six different speeds.
 
-## Block functions
-* START, STOP
-* Repeat 
-* Walk (9 options) at 6 different speed values. 
+## Fundamentals [ [walk.bloc] ](walk.bloc)
+* Main blocks  
+    * Structure > START STOP  
+    * Otto > Move  
+    * Logic > Repeat   
+    ![i](blocks.png)  
 
-## Block diagram
+* Assembly blocks 
 ![i](main.PNG)  
-Move  
+
+* Test different Movements 
 ![i](walk-move.PNG)  
-Speed  
+
+* Test different Speeds
 ![i](walk-speed.PNG)  
 
-## Arduino code
-[ino](walk.ino)
-```
-#include <Otto9.h>
-Otto9 Otto;
+## Exercises 
 
-#define PIN_YL 2 // left leg, servo[0]
-#define PIN_YR 3 // right leg, servo[1]
-#define PIN_RL 4 // left foot, servo[2]
-#define PIN_RR 5 // right foot, servo[3]
-#define PIN_Trigger 8 // ultrasound
-#define PIN_Echo 9 // ultrasound
-#define PIN_Buzzer  13 //buzzer
+01. Create a sets of blocks to make the robot move forward 2 steps
+and backward 2 steps.
 
-void setup() {
-  Otto.init(PIN_YL, PIN_YR, PIN_RL, PIN_RR, true, A6, PIN_Buzzer, PIN_Trigger, PIN_Echo);
-}
+02. Create a new sets of blocks to make the robot move forward 2 steps
+and backward 2 steps using different speeds.
 
-void loop() {
-  for (int count=0 ; count<1 ; count++) {
-    Otto.shakeLeg(1,1000,-1);
-  }
-  while(true);
+03. How can the robot help you in your house? Can your own sets 
+of blocks using different repetitions, movements and speeds. 
 
-}
-```
+## References
+* Arduino code [ [walk.ino] ](walk.ino)
