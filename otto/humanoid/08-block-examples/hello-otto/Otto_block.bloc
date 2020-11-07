@@ -1,0 +1,30 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <toolbox>toolbox_arduino_all</toolbox>
+  <block type="base_begin" id="9DY^N=Oxy){EYA/0+$_i" x="-62" y="295">
+    <next>
+      <block type="otto9_mouth" id="Fn//vS=;Ju7Owr/L=jw9">
+        <field name="otto9_mouth_choice">happyOpen</field>
+        <next>
+          <block type="controls_repeat_ext" id="UzHk],gU7($L)mFzGb4C">
+            <value name="TIMES">
+              <shadow type="math_number" id=";YoeKvL(Z%Y{}J18G42{">
+                <field name="NUM">2</field>
+              </shadow>
+              <block type="math_number" id="[kNzs25=xP9lX0KC@WMT">
+                <field name="NUM">2</field>
+              </block>
+            </value>
+            <statement name="DO">
+              <block type="otto9_gestureh" id="nGC56c~,KEkrCVp0p,N?">
+                <field name="otto_gesture">OttoMagic</field>
+              </block>
+            </statement>
+            <next>
+              <block type="base_end" id="wJC1.HNROdn^x%8zwOi%"></block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
