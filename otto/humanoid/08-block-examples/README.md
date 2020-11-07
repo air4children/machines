@@ -10,6 +10,7 @@
 
 ## Examples
 01. Walk [:link:](walk/README.md)
+02. Hello Otto [:link:](hello-otto/README.md)
 02. touch interaction [:link:](touch-interaction/README.md)
 03. Touch interaction humanoid [:link:](touch-interaction-humanoid/README.md)
 04. ultrasound interaction [:link:](ultrasound-interaction/README.md)

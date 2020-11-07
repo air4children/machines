@@ -9,10 +9,10 @@
     * Humanoid > Gesture   
     
 * Block diagram [ block ](Otto_block.bloc)   
-![i](ho01.png)  
+![i](ho01.PNG)  
 
 * Assembly blocks   
-![i](blocks.PNG)  
+![i](blocks.png)  
 
 * Test different mouth options    
 ![i](ho02.PNG)  
