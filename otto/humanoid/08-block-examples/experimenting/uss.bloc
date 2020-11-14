@@ -1,0 +1,30 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <toolbox>toolbox_arduino_all</toolbox>
+  <block type="base_setup_loop" id="M0evo8yGWAL:o8a!QF0W" x="7" y="31">
+    <statement name="DO">
+      <block type="otto9_homeh" id="gIlUGGWeEYM-fO1C`B(="></block>
+    </statement>
+    <statement name="LOOP">
+      <block type="controls_whileUntil" id="7;nq]mTyRyR?Ezrb,dN$">
+        <field name="MODE">WHILE</field>
+        <value name="BOOL">
+          <block type="otto9_obstacle" id="mf_24*/DXRL4vf:HHd{|">
+            <field name="obstacle">3</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="play" id="d4{dNUbKHT[h`k*El5=+">
+            <field name="tempo">250</field>
+            <field name="note">329</field>
+            <next>
+              <block type="play" id="KNKl;N-T?h8%$.s!5}_|">
+                <field name="tempo">125</field>
+                <field name="note">261</field>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>
