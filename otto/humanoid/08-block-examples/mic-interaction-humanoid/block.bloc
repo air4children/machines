@@ -1,0 +1,30 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <toolbox>toolbox_arduino_all</toolbox>
+  <block type="base_loop" id="z*Yz}3AV_!R:Z~@E3G;P" x="104" y="-101">
+    <statement name="LOOP">
+      <block type="controls_if" id="O{9$e%(3VCYc]H+ROUb8">
+        <value name="IF0">
+          <block type="logic_compare" id="2ttJlr;e_G)5@4U5OaW#">
+            <field name="OP">GT</field>
+            <value name="A">
+              <block type="otto9_getnoise" id="W{.^q=8npOPjQpDI*-n."></block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="N(.;8bQt))qA%#@^*bYn">
+                <field name="NUM">500</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="otto9_gestureh" id="d(Abux(=RmiW/M=~oC6m">
+            <field name="otto_gesture">OttoSuperHappy</field>
+          </block>
+        </statement>
+        <next>
+          <block type="otto9_homeh" id="I%aqRMi?n$[:ck*j2-),"></block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
