@@ -1,6 +1,6 @@
 # Experimenting 
 **Description:** 
-Examples to experiment various functions of blocky!
+Examples to experiment various functions of blockly!
 
 ## Ultrasound sensor and sounds (uss)
 * Logic: As long as  
@@ -13,3 +13,10 @@ Examples to experiment various functions of blocky!
 * Sensor: Touch
 * Actuator: Led display
 * Gestures 
+
+## if-then counters mouth 
+* Logic: Loop
+* Logic: Set Variables
+* Logic: Use counter 
+* Sensor: Ultrasound
+* Actuator Speaker
