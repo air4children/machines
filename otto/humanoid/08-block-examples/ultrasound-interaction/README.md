@@ -10,7 +10,7 @@ with 9 different at 6 different speeds.
 * If, then 
 * Obstacle
 
-## Block diagram
+## Block diagram [:robot:](ultrasound-interaction.bloc)   
 * main
 ![fig](main.PNG)
 
@@ -31,9 +31,7 @@ with 9 different at 6 different speeds.
 
 
 
-## Arduino code
-[ino](ultrasound-interaction.ino)
-
+## Arduino code [:green_book:](ultrasound-interaction.ino)
 ```
 #include <Otto9Humanoid.h>
 Otto9Humanoid Otto;

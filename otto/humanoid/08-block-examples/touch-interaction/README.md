@@ -8,7 +8,7 @@ three speeds.
 * If, then 
 * Walk
 
-## Block diagram
+## Block diagram [:robot:](touch-interaction.bloc)
 ![i](main.PNG)  
 Do  
 ![i](do.PNG)  
@@ -17,10 +17,7 @@ Speed
 Size    
 ![i](size.PNG)  
 
-
-## Arduino code 
-[ino](touch-interaction.ino) 
-
+## Arduino code [:green_book:](touch-interaction.ino)
 ``` 
 #include <Otto9.h>
 Otto9 Otto;

@@ -9,7 +9,7 @@ different functions of the humanoid library.
 * Touch
 * Humanoid functions
 
-## Block diagram
+## Block diagram [:robot:](block.bloc)
 ![i](blocks.png)  
 Gestures 
 ![i](gesture.png)  
@@ -19,9 +19,7 @@ Sounds
 ![i](sounds.png)  
 
 
-## Arduino code 
-[ino](ino.ino) 
-
+## Arduino code[:green_book:](ino.ino)
 ``` 
 #include <Otto9Humanoid.h>
 Otto9Humanoid Otto;
