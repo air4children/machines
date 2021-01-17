@@ -1,0 +1,53 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <toolbox>toolbox_arduino_all</toolbox>
+  <block type="base_setup_loop" id="ySRAWW,B?yJLg=btdBq{" x="-554" y="48">
+    <statement name="DO">
+      <block type="variables_set_init" id="-LEmbV*[l(oHvOsbe[4M">
+        <field name="VAR">counter</field>
+        <field name="VARIABLE_SETTYPE_TYPE">NUMBER</field>
+        <value name="VALUE">
+          <block type="math_number" id="gmw.~C{YcD+A5FNvUMU=">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <statement name="LOOP">
+      <block type="controls_switch" id="S!(-Yh*@iFPnGCkT){``">
+        <field name="SWVAR">counter</field>
+        <value name="CASE0">
+          <block type="math_number" id="GS6oEIdVW^Q`)Xd6F8Q;">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="otto9_soundh" id="(3[ED*xpHl5N)xSg^S9|">
+            <field name="otto_sound">S_fart1</field>
+          </block>
+        </statement>
+        <next>
+          <block type="otto9_mouth#" id="DqVwm`?gM;Ty2JVFSb.z">
+            <value name="mouth">
+              <shadow type="math_number" id="O#^`p,Lr.nR#%]D_-Tpo">
+                <field name="NUM">10</field>
+              </shadow>
+              <block type="variables_get" id="75^e|wF!#i,=NjU}7!r9">
+                <field name="VAR">counter</field>
+              </block>
+            </value>
+            <next>
+              <block type="math_change" id="[_;HU!CY/uq.BTr{#vv1">
+                <field name="VAR">counter</field>
+                <value name="DELTA">
+                  <block type="math_number" id="0:4?t|!WTM}|[WRO#k%-">
+                    <field name="NUM">3</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
