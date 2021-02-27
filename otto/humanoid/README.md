@@ -4,7 +4,7 @@ Otto can show up to 30 predefined mouths with sound, movements and expressions w
 ![fig](07-assembly-instructions/first-time-constructions/IMG_7001.jpg)
 
 # Content
-## 01. How it works
+## 01. [How it works](01-how-it-works/)
 ## 02. Bill of materials
 ## 03. CAD files
 ## 04. 3D Printing
