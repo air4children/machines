@@ -9,7 +9,7 @@ Otto can show up to 30 predefined mouths with sound, movements and expressions w
 ## 03. [CAD files](03-cad-files)
 ## 04. [3D Printing](04-3d-printing)
 ## 05. [Software](05-software/)
-## 06. Electronics
+## 06. [Electronics](06-electronics/)
 ## 07. [Assembly Instructions](07-assembly-instructions/)
 ## 08. [Code](08-block-examples/README.md)
 
