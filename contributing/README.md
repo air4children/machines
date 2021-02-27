@@ -1,11 +1,8 @@
 # Contributing to robots
-To make the work of air4children accessible to anyone anywhere
-in the world, the community of air4children will make the 
-best effort to make use of open-source software and hardware 
-as well as media under licences of public domain.  
+To make the work of air4children accessible to anyone, the community of air4children will make the best effort to make use of open-source software and hardware as well as media under licences of public domain.  
 
-## GitHub Flow 
-A simplified github workflow is the following:  
+## GitHub Flow
+The following is a proposed github workflow:  
 1. the creation of an issue 
 2. creation of a branch from dev
 3. commit changes
@@ -14,7 +11,7 @@ A simplified github workflow is the following:
 6. reviews approval and merge to dev. 
  
 ![fig](figures/github-workflow/references/GitHub-Flow.png)
-Image of GitHub-Flow is own by Build azure 2018 (see [README](figures/github-workflow/references/README.md) for references).
+Image of GitHub-Flow is owned by Build azure 2018 (see [README](figures/github-workflow/references/README.md) for references).
  
 
 ## Tools and tutorials
