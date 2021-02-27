@@ -14,5 +14,5 @@ Otto can show up to 30 predefined mouths with sound, movements and expressions w
 ## 08. [Coding](08-block-examples/)
 
 # References 
-* [Legacy files](legacy/)
-* https://wikifactory.com/+OttoDIY/humanoid
+* [Xtra files](xfiles/) such as legacy, photos, figures, etc
+* https://wikifactory.com/+OttoDIY/humanoid 
