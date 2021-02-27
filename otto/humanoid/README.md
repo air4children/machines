@@ -11,7 +11,7 @@ Otto can show up to 30 predefined mouths with sound, movements and expressions w
 ## 05. [Software](05-software/)
 ## 06. [Electronics](06-electronics/)
 ## 07. [Assembly Instructions](07-assembly-instructions/)
-## 08. [Code](08-block-examples/README.md)
+## 08. [Coding](08-block-examples/)
 
 # References 
 * [Legacy files](legacy/)
