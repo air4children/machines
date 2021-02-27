@@ -1,13 +1,39 @@
 # Software and its dependencies 
 
+## Windows 10x64
+### Otto DIY
+```
+1. Download API here: https://github.com/OttoDIY/blockly/releases/tag/v1.4.0
+2. Unzip and install.
+3. Open the example for Humanoid.
+4. Connect your Otto robot.
+5. Select Arduino nano, USB port where Otto is connected.
+6. Check the code.
+7. Upload!
+````
+
+### Pycharm
+* Download and install PyCharm community 
+https://www.jetbrains.com/pycharm/download/#section=windows
+
+### Gitbash
+Download the latest 64-bit version of Git for Windows. 
+* https://git-scm.com/downloads
+
+
 ## Ubuntu 18.04x64
 ### Blocky 
-git clone https://github.com/mxochicale/blockly
+```
+git clone --single-branch --branch versionlinux https://github.com/ottodiy/blockly
+#or: `git clone https://github.com/ottodiy/blockly && git checkout linuxversion`
 cd ~/blockly
-git checkout linux_build 
 npm install
-npm start
- 
+sudo chown -R $USER:$(id -gn $USER) /home/$USER/.config
+npm start #to test app
+npm run compiler #To compile
+``` 
+
+
 * For first time users, see [README](https://github.com/mxochicale/blockly/blob/linux_build/README.md#gnulinux) in the `linux_build` branch.
 
 
@@ -29,15 +55,6 @@ to extract its content. Alternatively, you can `OttoDIYLib-master.zip` in `/home
 
 #### Potential Issues
 For potential issues see [ISSUES](ISSUES.md) which are sorted out.
-
-## Windows 10 x64
-### Pycharm
-* Download and install PyCharm community 
-https://www.jetbrains.com/pycharm/download/#section=windows
-
-### Gitbash
-Download the latest 64-bit version of Git for Windows. 
-* https://git-scm.com/downloads
 
 ## Cloning project
 ### Clone GitHub project.
