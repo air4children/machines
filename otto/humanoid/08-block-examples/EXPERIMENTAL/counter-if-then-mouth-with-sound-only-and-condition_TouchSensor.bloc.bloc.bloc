@@ -1,0 +1,75 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <toolbox>toolbox_arduino_all</toolbox>
+  <block type="base_setup_loop" id="ySRAWW,B?yJLg=btdBq{" x="-443" y="160">
+    <statement name="DO">
+      <block type="variables_set_init" id="-LEmbV*[l(oHvOsbe[4M">
+        <field name="VAR">count</field>
+        <field name="VARIABLE_SETTYPE_TYPE">NUMBER</field>
+        <value name="VALUE">
+          <block type="math_number" id="gmw.~C{YcD+A5FNvUMU=">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <statement name="LOOP">
+      <block type="controls_if" id="Uhbpu:OcBXz.(8F9fdb?">
+        <value name="IF0">
+          <block type="otto9_touchbutton" id="7((M*Qco`4b;MlavHOAI"></block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_switch" id="@JA!=geHx|.q+ar]bNeN">
+            <field name="SWVAR">count</field>
+            <value name="CASE0">
+              <block type="math_number" id="o%3xe9HkqJiZgyoy!*x#">
+                <field name="NUM">5</field>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="otto9_gestureh" id="|Ft+JIulwYpGf~{1gN$q">
+                <field name="otto_gesture">OttoSuperHappy</field>
+              </block>
+            </statement>
+            <next>
+              <block type="otto9_soundh" id="B6~Fz,F0Dm*p;0Gt;R6=">
+                <field name="otto_sound">S_buttonPushed</field>
+                <next>
+                  <block type="math_change" id=",PBqK~:dGhf?G}JOxG:~">
+                    <field name="VAR">count</field>
+                    <value name="DELTA">
+                      <block type="math_number" id="H0e/CI01-Ya01BXK|Oy8">
+                        <field name="NUM">1</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="otto9_mouth#" id="0WLAo~P)!yghNDp+0%,N">
+                        <value name="mouth">
+                          <shadow type="math_number" id="a:SNCXUM5m5NMK@5Ym9~">
+                            <field name="NUM">10</field>
+                          </shadow>
+                          <block type="variables_get" id="tUKJ(Oau,2L[pGKpv].s">
+                            <field name="VAR">count</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="base_delay" id="PA-#*LS9D@}nR6GRj[=3">
+                            <field name="unite">m</field>
+                            <value name="DELAY_TIME">
+                              <shadow type="math_number" id="zL^{qnDO2BkHtj-pPaTP">
+                                <field name="NUM">10</field>
+                              </shadow>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>
