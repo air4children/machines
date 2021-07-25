@@ -1,28 +1,30 @@
-# Coding with Otto robot and Blockly
+# Coding with otto-robot and Blockly
 ## Usage
-01. Prepare robot for connection
-02. Open blockly application
-03. Connect USB cable to Otto
-04. Choose microcontroller (Arduino Nano) and Select Port (COMX or USBX)
+01. Prepare robot for its connection to a computer
+02. Open Blockly application
+03. Connect USB cable to otto-robot
+04. Choose microcontroller (Arduino Nano) and Select Port number (COMX or USBX) where $X is the number of port
 05. Load example
-06. Play and explore
-07. Disconnect USB cable 
-08. Close Blocky
-09. Put otto back in the package
+06. Then you can play and explore Blockly application
+07. Disconnect USB cable from the computer and otto-robot
+08. Close Blocky application
+09. Put otto-robot back into its package
 
 ## Examples
 
-### Basic 
-* [Walk](walk/)
-* [Hello Otto](hello-otto/)
+### BASIC 
+* [Walk](BASIC-walk/)
+* [Hello Otto](BASIC-hello-otto/)
 
-### Intermediate 
-* [Touch interaction](touch-interaction/)
-* [Touch interaction humanoid](touch-interaction-humanoid/)
+### INTERMEDIATE 
+* [Touch interaction](INTERMEDIATE-touch-interaction/)
+* [Touch interaction humanoid - easy](INTERMEDIATE-touch-interaction-humanoid-easy/)
+* [Touch interaction humanoid - medium](INTERMEDIATE-touch-interaction-humanoid-medium/)
 
-### Advance 
-* [Ultrasound interaction](ultrasound-interaction/)
-* [Noise sensor interaction humanoid](mic-interaction-humanoid/)
+### ADVANCE 
+* [Ultrasound interaction - easy](ADVANCE-ultrasound-interaction-easy/)
+* [Ultrasound interaction - medium](ADVANCE-ultrasound-interaction-medium/)
+* [Noise sensor interaction humanoid](ADVANCE-mic-interaction-humanoid/)
 
-### Are you sure? 
-* Experimenting [:link:](experimenting/README.md)  
+### EXPERIMENTAL
+* [Experimenting with otto and Blocky functions](experimenting/README.md)
