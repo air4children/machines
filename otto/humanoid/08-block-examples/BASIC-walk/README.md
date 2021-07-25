@@ -21,7 +21,7 @@ otto walk in nine styles at six different speeds.
 * Test different Speeds   
 ![i](walk-speed.PNG)  
 
-## Exercises 
+## Suggested Exercises 
 
 01. Create a sets of blocks to make the robot move forward 2 steps
 and backward 2 steps.

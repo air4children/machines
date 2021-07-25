@@ -17,6 +17,17 @@ Speed
 Size    
 ![i](size.PNG)  
 
+## Suggested Exercises
+Users can select different possibilities for do, seep and size.
+01. Program your robot with any of the following  `do` options: swing, updown, tiptoeSwing, jitter, and ascendingTurn. 
+    Make notes on which you like most differences between them.
+    
+02. Program your robot with any of the following  `speed` options: normal, slow, very slow, fast, very fast and way to fast.
+    Make notes on different speeds. 
+    
+03. Program your robot with any of the following  `size` options: normal, little, big.
+    Make notes on different sizes. 
+    
 ## Arduino code [:green_book:](touch-interaction.ino)
 ``` 
 #include <Otto9.h>

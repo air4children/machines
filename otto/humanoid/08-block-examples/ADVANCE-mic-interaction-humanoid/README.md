@@ -13,6 +13,14 @@ gestures (or perhaps other) functions of humanoid robot.
 ![i](blocks00.png)   
 ![i](blocks01.png)  
 
+
+
+## Suggested Exercises
+01. Build the block example and test different threshold values (default is 500).
+    * How does the threshold affect the programme gesture?
+    * What happen if you change the condition of `the greater than` to `lower than sign`? 
+    
+
 ## Arduino code [:green_book:](ino.ino)
 ``` 
 #include <Otto9Humanoid.h>

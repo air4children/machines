@@ -14,6 +14,13 @@
 
 ![fig](notes_b.png)  
 
+## Suggested Exercises
+01. Build the above blocks and change different tones and musical notes.
+    
+02. Experiment with the change of obstacle distance (very close, close, very far)
+    
+03. Program a music notes that you might like to hear when the sensor is activated.
+
 ## Arduino code [:green_book:](ino.ino)
 ```
 #include <Otto9Humanoid.h>

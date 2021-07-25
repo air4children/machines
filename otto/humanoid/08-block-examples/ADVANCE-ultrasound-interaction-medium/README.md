@@ -28,8 +28,9 @@ with 9 different at 6 different speeds.
 
 * Speed
 ![fig](speed.PNG)
-
-
+  
+## Suggested Exercises
+01. Program the robot to react to a very close movement with a combination of blocks that make the robot to dance with sound and mouth expressions. 
 
 ## Arduino code [:green_book:](ultrasound-interaction.ino)
 ```

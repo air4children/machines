@@ -11,6 +11,8 @@
 09. Put otto-robot back into its package
 
 ## Examples
+Examples of the blockly and otto-robot are organised as basic, intermediate, advance and experimental.   
+Each example includes description, fundamental concepts, block diagrams, exercises, and c-based code.  
 
 ### BASIC 
 * [Walk](BASIC-walk/)
@@ -28,3 +30,6 @@
 
 ### EXPERIMENTAL
 * [Experimenting with otto and Blocky functions](experimenting/README.md)
+
+## References
+* [Legacy files](Legacy-files/) such as legacy, photos, figures, etc

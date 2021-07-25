@@ -20,7 +20,7 @@
 * Test different gesture options   
 ![i](ho03.PNG)  
 
-## Exercises
+## Suggested Exercises
 01. Create a sets of blocks to make different mouth and gestures combinations.
 
 02. Can your robot create positive emotions in others? Play with those functions

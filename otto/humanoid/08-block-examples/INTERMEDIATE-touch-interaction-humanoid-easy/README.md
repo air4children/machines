@@ -17,6 +17,14 @@
 ![gestures](gestures.png)
   
 
+## Suggested Exercises
+01. Program your robot with any of the following `Mouth` options: happy1, happy2, smile, sad1, sad2, surprise, Surprise2, confused, tongue, silly, serious, upset, heart, v1, v2, no, OK, ?, thunder.
+    Make notes on which you like most differences between them.
+    
+02. Program your robot with any of the following `Gestures` options: happy1, happy2, sad, sleep, confused, fretful, love, angry, magic, wave, victory, fail, fart.
+    Make notes on which you like most differences between them.
+    
+
 ## Arduino code [:green_book:](arduino.ino)
 ``` 
 #include <Otto9Humanoid.h>

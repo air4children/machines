@@ -19,6 +19,14 @@ Sounds
 ![i](sounds.png)  
 
 
+## Suggested Exercises
+01. Program your robot with any of the following `sound` options: happy1, happy2, happy3, sad, confused, cuddly, Oh, OhOoh, surprise, connect, disconnect, push, 1, 2, 3, sleep, fart1, fart2, fart3.  
+    Make notes on which you like most differences between them.
+    
+02. Users can choose a desired combination for the setup and the main function loop of otto-robot. 
+    Make notes on which you like most differences between them.
+
+
 ## Arduino code[:green_book:](ino.ino)
 ``` 
 #include <Otto9Humanoid.h>
