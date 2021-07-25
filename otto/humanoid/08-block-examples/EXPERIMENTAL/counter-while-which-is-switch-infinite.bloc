@@ -7,7 +7,7 @@
         <field name="VARIABLE_SETTYPE_TYPE">NUMBER</field>
         <value name="VALUE">
           <block type="math_number" id="gmw.~C{YcD+A5FNvUMU=">
-            <field name="NUM">0</field>
+            <field name="NUM">1</field>
           </block>
         </value>
       </block>

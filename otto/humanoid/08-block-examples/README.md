@@ -29,7 +29,7 @@ Each example includes description, fundamental concepts, block diagrams, exercis
 * [Noise sensor interaction humanoid](ADVANCE-mic-interaction-humanoid/)
 
 ### EXPERIMENTAL
-* [Experimenting with otto and Blocky functions](experimenting/README.md)
+* [Experimenting with otto and Blocky functions](EXPERIMENTAL/README.md)
 
 ## References
 * [Legacy files](Legacy-files/) such as legacy, photos, figures, etc
