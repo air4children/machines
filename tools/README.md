@@ -35,9 +35,8 @@ Image of GitHub-Flow is owned by Build azure 2018 (see [README](figures/github-w
 #### Gitbash
 * https://gitforwindows.org/   
 * https://www.youtube.com/watch?v=on-MniMwdxM/  
-Download the latest 64-bit version of Git for Windows. 
-* https://git-scm.com/downloads
-
+* Download the latest 64-bit version of Git for Windows. 
+https://git-scm.com/downloads
 
 ### Gitlab 
 https://about.gitlab.com/ 
@@ -49,7 +48,6 @@ https://about.gitlab.com/
 * Download and install PyCharm community 
 https://www.jetbrains.com/pycharm/download/#section=windows
   
-
 #### Visual Studio Code
 * https://code.visualstudio.com/ 
 
