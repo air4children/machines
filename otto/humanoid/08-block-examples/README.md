@@ -20,21 +20,25 @@ Examples of the blockly and otto-robot are organised as basic, intermediate, adv
 Each example includes description, fundamental concepts, block diagrams, exercises, and c-based code.  
 
 ### BASIC 
-* [Walk](BASIC-walk/)
-* [Hello Otto](BASIC-hello-otto/)
+* [Walk](00_BASIC-walk/)
+* [Hello Otto](00_BASIC-hello-otto/)
+* [Sound and gestures](00_BASIC_sound_and_gestures)
 
 ### INTERMEDIATE 
-* [Touch interaction](INTERMEDIATE-touch-interaction/)
-* [Touch interaction humanoid - easy](INTERMEDIATE-touch-interaction-humanoid-easy/)
-* [Touch interaction humanoid - medium](INTERMEDIATE-touch-interaction-humanoid-medium/)
+* [Touch interaction](01_INTERMEDIATE-touch-interaction/)
+* [Touch interaction humanoid - easy](01_INTERMEDIATE-touch-interaction-humanoid-easy/)
+* [Touch interaction humanoid - medium](01_INTERMEDIATE-touch-interaction-humanoid-medium/)
 
 ### ADVANCE 
-* [Ultrasound interaction - easy](ADVANCE-ultrasound-interaction-easy/)
-* [Ultrasound interaction - medium](ADVANCE-ultrasound-interaction-medium/)
-* [Noise sensor interaction humanoid](ADVANCE-mic-interaction-humanoid/)
+* [Ultrasound interaction - easy](02_ADVANCE-ultrasound-interaction-easy/)
+* [Ultrasound interaction - medium](02_ADVANCE-ultrasound-interaction-medium/)
+* [Noise sensor interaction humanoid](02_ADVANCE-mic-interaction-humanoid/)
+
+### DEMOS
+* [Dancing](DEMOS/dance)
 
 ### EXPERIMENTAL
-* [Experimenting with otto and Blocky functions](EXPERIMENTAL/)
+* [Experimenting with otto and functions of Blocky](XPERIMENTAL/)
 
 ## References
 * [Legacy files](Legacy-files/) such as legacy, photos, figures, etc

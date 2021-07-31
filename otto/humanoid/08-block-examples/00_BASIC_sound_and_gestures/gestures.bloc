@@ -1,0 +1,79 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <toolbox>toolbox_arduino_all</toolbox>
+  <block type="base_loop" id="-#;;U~w_z.gB~1!|VeI$" x="-142" y="21">
+    <statement name="LOOP">
+      <block type="controls_if" id="]]?8Y(KZl1wBO.{?svBi">
+        <value name="IF0">
+          <block type="otto9_obstacle" id="98W0kSjiSL6t:}ykvR/=">
+            <field name="obstacle">10</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="otto9_gestureh" id="!`zy}d;|@~5WQ9IscgGU">
+            <field name="otto_gesture">OttoSuperHappy</field>
+            <next>
+              <block type="otto9_gestureh" id="UBo?k@I829F*d|~`ta?q">
+                <field name="otto_gesture">OttoHappy</field>
+                <next>
+                  <block type="otto9_gestureh" id="GCiVKY7EG3x;B;%E1lL+">
+                    <field name="otto_gesture">OttoSad</field>
+                    <next>
+                      <block type="otto9_gestureh" id="?7=KBdZF(kIFuG1XhqEi">
+                        <field name="otto_gesture">OttoSleeping</field>
+                        <next>
+                          <block type="otto9_gestureh" id="TQ+24$#|9H?leTNdqYb}">
+                            <field name="otto_gesture">OttoConfused</field>
+                            <next>
+                              <block type="otto9_gestureh" id=":5%DJ%M7af5m5I3K557X">
+                                <field name="otto_gesture">OttoFretful</field>
+                                <next>
+                                  <block type="otto9_gestureh" id="{E|P7#DWg+FT9w#(TWfb">
+                                    <field name="otto_gesture">OttoLove</field>
+                                    <next>
+                                      <block type="otto9_gestureh" id="wS_*pTrp$)Gfq=-!PG`(">
+                                        <field name="otto_gesture">OttoAngry</field>
+                                        <next>
+                                          <block type="otto9_gestureh" id="`-oE;KYj1Tj:(A*1GP%n">
+                                            <field name="otto_gesture">OttoMagic</field>
+                                            <next>
+                                              <block type="otto9_gestureh" id="yS5,NY%,]5Na6Amh-/2d">
+                                                <field name="otto_gesture">OttoWave</field>
+                                                <next>
+                                                  <block type="otto9_gestureh" id="L;{]=^O.S%!HSiZwy_n|">
+                                                    <field name="otto_gesture">OttoVictory</field>
+                                                    <next>
+                                                      <block type="otto9_gestureh" id=",s:XXEHt!XzW_Pm,eYk|">
+                                                        <field name="otto_gesture">OttoFail</field>
+                                                        <next>
+                                                          <block type="otto9_gestureh" id="}Ai0k!C[Slg:C]]]qThT">
+                                                            <field name="otto_gesture">OttoFart</field>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>
