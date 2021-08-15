@@ -38,7 +38,7 @@ Each example includes description, fundamental concepts, block diagrams, exercis
 * [Dancing](DEMOS/dance)
 
 ### EXPERIMENTAL
-* [Experimenting with otto and functions of Blocky](XPERIMENTAL/)
+* [Experimenting with otto and functions of Blocky](xtra-files/XPERIMENTAL/)
 
 ## References
 * [Legacy files](Legacy-files/) such as legacy, photos, figures, etc
