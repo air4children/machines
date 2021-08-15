@@ -5,7 +5,7 @@
       <block type="controls_if" id="]]?8Y(KZl1wBO.{?svBi">
         <value name="IF0">
           <block type="otto9_obstacle" id="98W0kSjiSL6t:}ykvR/=">
-            <field name="obstacle">10</field>
+            <field name="obstacle">3</field>
           </block>
         </value>
         <statement name="DO0">
