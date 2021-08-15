@@ -39,7 +39,18 @@ sudo chmod a+rw /dev/ttyUSB0
     SORTEDOUT by using new codes here use new codes here https://wikifactory.com/+OttoDIY/humanoid/files/Codes/OttoH_APP_V9 (4d206f5)   
      
 
-### bluetooh dongle connected  
+### Bluetooth dongle connected  
 Raised [issue](https://wikifactory.com/+OttoDIY/humanoid/issues/errors-avrdude-stk500recv-avrdude-stk500getsync) 
  that is partially sorted out by disconnecting the bluetoothdongle
+
+### Error: Command failed: /home/mx19/.OttoBlockly/arduino/flash.sh /dev/ttyUSB0 nano avrdude
+Terminal output 
+```commandline
+Error: Command failed: /home/mx19/.OttoBlockly/arduino/flash.sh /dev/ttyUSB0 nano avrdude: stk500_recv(): programmer is not responding avrdude: stk500_getsync() attempt 1 of 10: not in sync: resp=0x00 avrdude: stk500_recv():
+```
+
+Seems the problem is indeed the selected micro-controller as agomezar mentioned here https://github.com/OttoDIY/blockly/issues/38#issuecomment-691625447. 
+Therefore, for the board choose `Arduino Nano` instead of `Arduino Nano (oldbootloader)`
+
+DATE: Sun 15 Aug 10:49:01 BST 2021
 

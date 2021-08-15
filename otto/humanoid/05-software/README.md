@@ -70,8 +70,13 @@ check USB connection
 ``` 
 ls -l /dev/ttyUSB*
 ```
-setting up permissions 
-    
+terminal output   
+```
+$ ls -l /dev/ttyUSB*
+crw-rw---- 1 root dialout 188, 0 Aug 15 10:49 /dev/ttyUSB0
+```
+
+setting up permissions    
 ``` 
 sudo usermod -a -G dialout $USER
 sudo chmod a+rw /dev/ttyUSB0
@@ -91,8 +96,11 @@ Open a terminal and run:
 cd ~/xfiles/air4children/blockly
 npm start #to test app
  ```
-
+In the OttoBlockly choose:
+Board: Arduino Nano; Processor: --; Port:/dev/ttyUSB0
 
 ## References
 * Further information on the `versionlinux` branch: [README](https://github.com/mxochicale/blockly/tree/versionlinux#otto-blockly-for-gnulinux-os) in
 * See [EXTRAS](EXTRAS.md) notes
+* Issue related to the linux installation https://github.com/OttoDIY/blockly/issues/38 
+* dialout group permissions: https://www.arduino.cc/en/Guide/Linux
