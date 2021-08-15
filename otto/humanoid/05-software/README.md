@@ -52,7 +52,7 @@ sudo apt install -y nodejs
 ```
 See the following links to install node-js on [ubuntu-18-04](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04) or [ubuntu-20-04](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04).
 
-#### Blocky repo branch versionlinux
+#### Clone Blocky repository in the branch `versionlinux`
 * Clone repository
 ```
 cd xfiles/air4children/
@@ -65,12 +65,19 @@ npm start #to test app
 npm run compiler #To compile
 ```
 * Setting up permission to the usermod and ports
+
+check USB connection
+``` 
+ls -l /dev/ttyUSB*
+```
+setting up permissions 
+    
 ``` 
 sudo usermod -a -G dialout $USER
 sudo chmod a+rw /dev/ttyUSB0
 ```
 
-
+_**NOTE.** You need to reboot your machine for the group changes to take effect._
 
 #### Cleaning blocky node project
 ``` 
@@ -78,14 +85,14 @@ rm -rf dist/ && rm -rf node_modules/ && rm -rf package-lock.json
 ```
 
 
-## Usage Instructoins
+## Usage Instructions
+Open a terminal and run: 
+```
+cd ~/xfiles/air4children/blockly
+npm start #to test app
+ ```
 
 
-
-
-
-
-
-
-
-* Futherr information is at [README](https://github.com/mxochicale/blockly/tree/versionlinux#otto-blockly-for-gnulinux-os) in the `versionlinux` branch. 
+## References
+* Further information on the `versionlinux` branch: [README](https://github.com/mxochicale/blockly/tree/versionlinux#otto-blockly-for-gnulinux-os) in
+* See [EXTRAS](EXTRAS.md) notes
