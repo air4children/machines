@@ -27,6 +27,7 @@ Image of GitHub-Flow is owned by Build azure 2018 (see [README](figures/github-w
 #### [GitHub](https://en.wikipedia.org/wiki/GitHub)
 * https://www.youtube.com/watch?v=iv8rSLsi1xo
 * https://www.youtube.com/watch?v=3RjQznt-8kE&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR
+* See this [tutorial](https://github.com/mxochicale/github) to learn more about Github.
 
 #### Powershell
 * https://docs.microsoft.com/en-us/powershell/   
