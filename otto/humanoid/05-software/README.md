@@ -91,13 +91,13 @@ rm -rf dist/ && rm -rf node_modules/ && rm -rf package-lock.json
 
 
 ## Usage Instructions
-Open a terminal and run: 
+1. Open a terminal and run: 
 ```
 cd ~/xfiles/air4children/blockly
 npm start #to test app
  ```
-In the OttoBlockly choose:
-Board: Arduino Nano; Processor: --; Port:/dev/ttyUSB0
+2. Connect your robot to an avaible USB post and 
+3. In the OttoBlockly choose: Board: Arduino Nano; Processor: --; Port:/dev/ttyUSB0
 
 ## References
 * Further information on the `versionlinux` branch: [README](https://github.com/mxochicale/blockly/tree/versionlinux#otto-blockly-for-gnulinux-os) in
