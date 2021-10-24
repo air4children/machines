@@ -1,19 +1,27 @@
 # Bill of materials
 
-## main hardware
-* 1 x Nano ATmega328
-* 1 x Nano Shield I/O
-* 1 x cable USB-A to Mini-USB
-* 1 x Bluetooth module BLE
-* 1 x ultrasound sensor HC-SR04
-* 6 x Micro servo MG90
-* 1 x Buzzer
-* 24 x Female/Female Jumper Wire
-* 8 x extra M2 screws
-* 1 x LED Matrix 8x8
-* 1 × Buzzer
-* 10 × DuPont Female/Female wires
-* 1 × Sound sensor
+## Electronics   
+* 1 x Nano ATmega328   
+* 1 x Nano Shield I/O  
+* 1 x cable USB-A to Mini-USB   
+* 1 x Bluetooth module BLE   
+* 1 x ultrasound sensor HC-SR04   
+* 6 x Micro servo MG90   
+* 1 x Buzzer   
+* 24 x Female/Female Jumper Wire   
+* 8 x extra M2 screws   
+* 1 x LED Matrix 8x8   
+* 1 × Buzzer   
+* 10 × DuPont Female/Female wires   
+* 1 × Sound sensor    
+* 1× Touch sensor (single capacitive touch sensor)     
+
+## 3D printed
+* head
+* body
+* grip x2
+* leg x4 (2 are the arms)
+* foot x2
 
 ## extras
 * comfortable screwdrivers  (professional ones)
