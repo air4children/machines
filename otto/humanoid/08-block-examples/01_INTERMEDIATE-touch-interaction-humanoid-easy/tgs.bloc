@@ -1,0 +1,22 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <toolbox>toolbox_arduino_all</toolbox>
+  <block type="base_loop" id="wU@[{GAlkmId#FwAQVMl" x="-148" y="-55">
+    <statement name="LOOP">
+      <block type="otto9_mouth" id="$kh363%`G$})13E|)@v3">
+        <field name="otto9_mouth_choice">heart</field>
+        <next>
+          <block type="controls_if" id="gEwQOp]Ws51!t^S6M^aK">
+            <value name="IF0">
+              <block type="otto9_touchbutton" id="PztWcMNKB;b0Y3)}DUXy"></block>
+            </value>
+            <statement name="DO0">
+              <block type="otto9_gestureh" id="kdFEP^gzf7WHhz}8sjwM">
+                <field name="otto_gesture">OttoSuperHappy</field>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>

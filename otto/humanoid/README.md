@@ -1,17 +1,18 @@
 # Otto Humanoid
-[Otto DIY Humanoid](https://wikifactory.com/+OttoDIY/humanoid) includes arms to look similar to a “Human”, 
-a Matrix of 8x8 LEDs to express emotions. Otto can show up to 30 predefined mouths 
-and you can even create your own.   
-![fig](figures/1359656870.png)
- 
+Otto Humanoid includes arms to look similar to a “Human”, a Matrix of 8x8 LEDs to express emotions. 
+Otto can show up to 30 predefined mouths with sound, movements and expressions with the 8x8 matrix.
+![fig](07-assembly-instructions/first-time-constructions/IMG_7001.jpg)
+
 # Content
-## 1. How it Works
-## 2. Bill of Materials
-## 3. CAD Files
-## 4. 3D Printing
-## 5. Software
-## 6. Electronics
-## 7. Assembly Instructions
+## 01. [How it works](01-how-it-works/)
+## 02. [Bill of materials](02-bill-of-materials/)
+## 03. [CAD files](03-cad-files)
+## 04. [3D Printing](04-3d-printing)
+## 05. [Software](05-software/)
+## 06. [Electronics](06-electronics/)
+## 07. [Assembly Instructions](07-assembly-instructions/)
+## 08. [Coding](08-block-examples/)
 
 # References 
-* [Legacy designs of CAD and 3D-priting files](legacy/README.md)
+* [Xtra files](xfiles/) such as legacy, photos, figures, etc
+* https://wikifactory.com/+OttoDIY/humanoid 

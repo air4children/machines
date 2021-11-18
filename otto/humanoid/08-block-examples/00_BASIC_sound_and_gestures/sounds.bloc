@@ -1,0 +1,114 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <toolbox>toolbox_arduino_all</toolbox>
+  <block type="base_loop" id="-#;;U~w_z.gB~1!|VeI$" x="-142" y="21">
+    <statement name="LOOP">
+      <block type="controls_if" id="]]?8Y(KZl1wBO.{?svBi">
+        <value name="IF0">
+          <block type="otto9_obstacle" id="98W0kSjiSL6t:}ykvR/=">
+            <field name="obstacle">3</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="otto9_soundh" id="I!_)QE!SJ(*e,LVoi+lV">
+            <field name="otto_sound">S_superHappy</field>
+            <next>
+              <block type="otto9_soundh" id=".(^5rbtkV8bk8Y*0-2@j">
+                <field name="otto_sound">S_happy</field>
+                <next>
+                  <block type="otto9_soundh" id="YQ|$dbtIp/u$Io8=Wi*K">
+                    <field name="otto_sound">S_happy_short</field>
+                    <next>
+                      <block type="otto9_soundh" id="G;itE[3(N*Aa;HAL2ZV{">
+                        <field name="otto_sound">S_sad</field>
+                        <next>
+                          <block type="otto9_soundh" id="%gx7RUrS9?D;X2E6l$Ib">
+                            <field name="otto_sound">S_confused</field>
+                            <next>
+                              <block type="otto9_soundh" id="Q+VhrX5rw3UC{n%,+Emb">
+                                <field name="otto_sound">S_cuddly</field>
+                                <next>
+                                  <block type="otto9_soundh" id="cYc|w*f7]$3g}4=.X9,#">
+                                    <field name="otto_sound">S_OhOoh</field>
+                                    <next>
+                                      <block type="otto9_soundh" id="%xQ@UVBM8YWk9cJ:W7_^">
+                                        <field name="otto_sound">S_OhOoh2</field>
+                                        <next>
+                                          <block type="otto9_soundh" id=";=:76j9u!CE*98]rZVB$">
+                                            <field name="otto_sound">S_surprise</field>
+                                            <next>
+                                              <block type="otto9_soundh" id="f0~HzL)UN{wRNpDs!Y0z">
+                                                <field name="otto_sound">S_connection</field>
+                                                <next>
+                                                  <block type="otto9_soundh" id="8a3eDLH,Cb8@/mUr8z`k">
+                                                    <field name="otto_sound">S_disconnection</field>
+                                                    <next>
+                                                      <block type="otto9_soundh" id="Mm6c-c+TbufeDn6=aC]y">
+                                                        <field name="otto_sound">S_buttonPushed</field>
+                                                        <next>
+                                                          <block type="otto9_soundh" id=",eIUIh%0r]Q)^{o+O(l{">
+                                                            <field name="otto_sound">S_mode1</field>
+                                                            <next>
+                                                              <block type="otto9_soundh" id="[^9GP)t)fv^GnuuGKDt=">
+                                                                <field name="otto_sound">S_mode2</field>
+                                                                <next>
+                                                                  <block type="otto9_soundh" id="?EY|d4`KN3_)[R:z[*l@">
+                                                                    <field name="otto_sound">S_mode3</field>
+                                                                    <next>
+                                                                      <block type="otto9_soundh" id="fIVFS_3Zf6[EC5qiAZTV">
+                                                                        <field name="otto_sound">S_sleeping</field>
+                                                                        <next>
+                                                                          <block type="otto9_soundh" id="8Gj6C0$j=%fddT2iKR_1">
+                                                                            <field name="otto_sound">S_buttonPushed</field>
+                                                                            <next>
+                                                                              <block type="otto9_soundh" id="(:u^rVY{4,p]/*Bpa|Tl">
+                                                                                <field name="otto_sound">S_fart1</field>
+                                                                                <next>
+                                                                                  <block type="otto9_soundh" id="TVM$vDegb]ipThe3H!:%">
+                                                                                    <field name="otto_sound">S_fart2</field>
+                                                                                    <next>
+                                                                                      <block type="otto9_soundh" id="bw{r]s_7ZDj0I!wM/NA*">
+                                                                                        <field name="otto_sound">S_fart3</field>
+                                                                                      </block>
+                                                                                    </next>
+                                                                                  </block>
+                                                                                </next>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>

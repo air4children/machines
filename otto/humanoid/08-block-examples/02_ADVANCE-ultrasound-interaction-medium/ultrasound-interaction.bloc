@@ -1,0 +1,33 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <toolbox>toolbox_arduino_all</toolbox>
+  <block type="base_setup_loop" id="j{i{r0e7_Z-lYp,YSFe:" x="-666" y="-122">
+    <statement name="DO">
+      <block type="otto9_homeh" id="|VnQW30!~`4{2Hhxen}r"></block>
+    </statement>
+    <statement name="LOOP">
+      <block type="controls_if" id="eE,I@wu*9}-MyAxv$w=8">
+        <value name="IF0">
+          <block type="otto9_obstacle" id="72TGxFqupX;2|Se=Mj7r">
+            <field name="obstacle">30</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="otto9_soundh" id="u=,Sz~[RmL{J.IeM_RLr">
+            <field name="otto_sound">S_cuddly</field>
+            <next>
+              <block type="otto9_mouth" id="sGR9F_-?*gk@pWOn!JwE">
+                <field name="otto9_mouth_choice">vamp1</field>
+                <next>
+                  <block type="otto9_moveh" id="tdv0b}9KjW7vKFVqb#$?">
+                    <field name="otto_move_sens">SHAKERIGHT</field>
+                    <field name="otto_move_speed">750</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>
