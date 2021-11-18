@@ -1,0 +1,95 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <toolbox>toolbox_arduino_all</toolbox>
+  <block type="base_loop" id="-#;;U~w_z.gB~1!|VeI$" x="-142" y="21">
+    <statement name="LOOP">
+      <block type="variables_set_init" id="kq+#KH-r~r+;V;sttjE-">
+        <field name="VAR">counter</field>
+        <field name="VARIABLE_SETTYPE_TYPE">NUMBER</field>
+        <value name="VALUE">
+          <block type="math_number" id="Oj9E$,fCr=;Fp=.`no?a">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <next>
+          <block type="controls_if" id="]]?8Y(KZl1wBO.{?svBi">
+            <value name="IF0">
+              <block type="otto9_obstacle" id="98W0kSjiSL6t:}ykvR/=">
+                <field name="obstacle">10</field>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="otto9_mouth#" id="!C]uu{+3m%g2lE]OM08y">
+                <value name="mouth">
+                  <shadow type="math_number" id=":VvdkJp*$,ka4m@5ece^">
+                    <field name="NUM">10</field>
+                  </shadow>
+                  <block type="variables_get" id="/uf9/bm7LY?*W5X8U%nN">
+                    <field name="VAR">counter</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="controls_repeat_ext" id="YVv#PUw-rO?Jb4dt7/AK">
+                    <value name="TIMES">
+                      <block type="math_number" id="5?n)-Hb,a/qCf*4@O)c6">
+                        <field name="NUM">2</field>
+                      </block>
+                    </value>
+                    <statement name="DO">
+                      <block type="otto9_doh" id="9)bo^!GUs{bmq=}w,PBi">
+                        <field name="otto_do_movement">swing</field>
+                        <field name="otto_move_speed">2000</field>
+                        <field name="otto_dance_size">25</field>
+                      </block>
+                    </statement>
+                    <next>
+                      <block type="controls_repeat_ext" id="!umHv/abyzq!Sg`l0;T?">
+                        <value name="TIMES">
+                          <block type="math_number" id="W):7Vr,Jj?/j5(zUU7Wu">
+                            <field name="NUM">5</field>
+                          </block>
+                        </value>
+                        <statement name="DO">
+                          <block type="otto9_danceh" id="H?k#v7{)6b1xACRD|.H@">
+                            <field name="otto_dance_movement">flappingBACK</field>
+                            <field name="otto_move_speed">500</field>
+                            <field name="otto_dance_size">25</field>
+                          </block>
+                        </statement>
+                        <next>
+                          <block type="controls_repeat_ext" id="[PcnV_oz?C|e%hw!$sM:">
+                            <value name="TIMES">
+                              <block type="math_number" id="/+rH8,^RhD@mT(h/Yy1$">
+                                <field name="NUM">5</field>
+                              </block>
+                            </value>
+                            <statement name="DO">
+                              <block type="otto9_doh" id="f}xt_`6u%eO]Nl@C}/-|">
+                                <field name="otto_do_movement">swing</field>
+                                <field name="otto_move_speed">250</field>
+                                <field name="otto_dance_size">40</field>
+                              </block>
+                            </statement>
+                            <next>
+                              <block type="math_change" id="0~hl0vmCK^fO:UjgdQ!4">
+                                <field name="VAR">counter</field>
+                                <value name="DELTA">
+                                  <block type="math_number" id="p8(Uw$DA:k{$G`eMTz_6">
+                                    <field name="NUM">1</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
