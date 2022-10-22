@@ -1,10 +1,12 @@
-# Open-source Robots at air4children
+# Open-source educational robots at air4children
+
 ## Content
 ### 1. [Otto Humanoid](otto/humanoid/)
 ### 2. [Jetbot](jetbot)
 
 ## Clone repo
 ```
+mkdir -p $HOME/repositories/air4children/ && cd $HOME/repositories/air4children/
 git clone git@github.com:air4children/robots.git
 ```
 ## Licenses
