@@ -1,12 +1,12 @@
 # Software 
 
-## 1. Cloning project
-### Quick access with the use of a ZIP project
+## 1. Cloning air4children project
+### 1.1 Quick access with the use of a ZIP project
 Download main.zip or the relevant branch:  
 * https://github.com/air4children/robots/archive/refs/heads/main.zip
 * https://github.com/air4children/robots/archive/refs/heads/otto-humanoid.zip
 
-### Clone GitHub project.
+### 1.2 Clone GitHub project.
 Open a terminal (GNU/Linux) or GitBash (in windows) 
 ```
 mkdir -p ~/repositories/air4children
@@ -26,18 +26,18 @@ Resolving deltas: 100% (59/59), done.
 ```
 
 ## 2. Installation of Blocky
-### Windows 10x64
-```
-1. Download API here: https://github.com/OttoDIY/blockly/releases/tag/v1.4.0
+### 2.1 Windows 10x64
+1. Download API here: https://github.com/OttoDIY/blockly/releases/tag/v1.4.0   
+	Other versions will work but have not being tested: https://github.com/OttoDIY/blockly/releases   
 2. Unzip and install.
 3. Open the example for Humanoid.
 4. Connect your Otto robot.
 5. Select Arduino nano, USB port where Otto is connected.
 6. Check the code.
 7. Upload!
-```
 
-### Ubuntu 18.04x64, 20.04x64
+
+### 2.2 Ubuntu 18.04x64, 20.04x64
 #### Dependencies (nodejs, npm)
 * Uncomment lines that correspond to your Ubuntu version
 ```
@@ -108,7 +108,9 @@ npm start #to test app
 
 
 ## 4. References
-* Further information on the `versionlinux` branch: [README](https://github.com/mxochicale/blockly/tree/versionlinux#otto-blockly-for-gnulinux-os) in
-* See [EXTRAS](EXTRAS.md) notes
+* GNU/Linux version: 
+   * branch `versionlinux`: [README](https://github.com/mxochicale/blockly/tree/versionlinux#otto-blockly-for-gnulinux-os) 
+   * blocklyLinux: https://github.com/OttoDIY/blocklyLinux   
+* See [EXTRAS](EXTRAS.md) notes for issues and other notes  
 * Issue related to the linux installation https://github.com/OttoDIY/blockly/issues/38 
-* dialout group permissions: https://www.arduino.cc/en/Guide/Linux
+* dialout group permissions: https://www.arduino.cc/en/Guide/Linux  
