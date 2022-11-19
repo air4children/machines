@@ -1,14 +1,16 @@
-# Open-source educational robots at air4children
+# Open-source machines at air4children
 
 ## Content
-### 1. [Otto Humanoid](otto/humanoid/)
-### 2. [Jetbot](jetbot)
+### [Jetbot](jetbot)
+### [Otto Humanoid](otto/humanoid)
+### [Tools](tools)
 
-## Clone repo
+## Clone repository
 ```
 mkdir -p $HOME/repositories/air4children/ && cd $HOME/repositories/air4children/
-git clone git@github.com:air4children/robots.git
+git clone git@github.com:air4children/machines.git
 ```
+
 ## Licenses
 * Software and code are licensed under [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
 * Hardware and 3D prints are licensed under [CERN OHL V2](https://ohwr.org/cernohl)

@@ -2,7 +2,6 @@
 To resources at air4children are meaning to be open-source in order to make the material accessible to anyone.
 
 ## Tools, tutorials and references
-s
 ### Operating Systems
 #### [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu) 
 * Ubuntu 20.04 LTS Linux Install Tutorial (24 Apr 2020): https://www.youtube.com/watch?v=CFI1Jt8kVUk
